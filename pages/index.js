@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useState } from 'react'
 
 import me from '../images/me.png'
-
+import Project from './components/Project'
 
 export default function Home() {
+  const [project, setProject] = useState('');
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -35,15 +38,16 @@ export default function Home() {
         <div className={styles.work}>
           <h2><span>projects</span></h2>
           <div className={styles.projects}>
-            <div>BEAT C♡NNECTI♡N</div>
-            <div>My Aunt&apos;s Kimchi Rules</div>
-            <div>omakase</div>
-            <div>SynthGarden</div>
+            <div className={styles.projectList}>
+              <div className={project === 'beat' ? styles.active : null} onClick={() => setProject('beat')}>BEAT C♡NNECTI♡N</div>
+              <div className={project === 'kimchi' ? styles.active : null} onClick={() => setProject('kimchi')}>My Aunt&apos;s Kimchi Rules</div>
+              <div className={project === 'omakase' ? styles.active : null} onClick={() => setProject('omakase')}>omakase</div>
+              <div className={project === 'synth' ? styles.active : null} onClick={() => setProject('synth')}>SynthGarden</div>
+            </div>
+            <div className={styles.projectDetails}>
+              <Project project={project} />
+            </div>
           </div>
-          {/* <div className={styles.projectDetails}>
-            A full stack, interactive site encouraging exploration. Discover streams, top national headlines, weather, and time.<br></br>
-            Doubles as passive tech: the UI/UX is minimal, visual hierarchy is reconsidered in response to the user&apos;s interactions, errors are handled without introducing new elements, and there&apos;s a subtle rotation on the canvas.
-          </div> */}
         </div>
       </main>
 
