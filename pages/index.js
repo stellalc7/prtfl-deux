@@ -22,7 +22,7 @@ export default function Home() {
         <h2><span>about</span></h2>
           <div className={styles.info}>
             stella l. choi<br></br>
-            frontend developer<br></br>
+            developer<br></br>
             NY
           </div>
           <Image
