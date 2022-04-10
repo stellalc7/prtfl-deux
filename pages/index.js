@@ -39,10 +39,10 @@ export default function Home() {
           <h2><span>projects</span></h2>
           <div className={styles.projects}>
             <div className={styles.projectList}>
-              <div className={project === 'beat' ? styles.active : null} onClick={() => setProject('beat')}>BEAT C♡NNECTI♡N</div>
-              <div className={project === 'kimchi' ? styles.active : null} onClick={() => setProject('kimchi')}>My Aunt&apos;s Kimchi Rules</div>
-              <div className={project === 'omakase' ? styles.active : null} onClick={() => setProject('omakase')}>omakase</div>
-              <div className={project === 'synth' ? styles.active : null} onClick={() => setProject('synth')}>SynthGarden</div>
+              <div className={project === 'beat' ? styles.active : null} onMouseOver={() => setProject('beat')}>BEAT C♡NNECTI♡N</div>
+              <div className={project === 'kimchi' ? styles.active : null} onMouseOver={() => setProject('kimchi')}>My Aunt&apos;s Kimchi Rules</div>
+              <div className={project === 'omakase' ? styles.active : null} onMouseOver={() => setProject('omakase')}>omakase</div>
+              <div className={project === 'synth' ? styles.active : null} onMouseOver={() => setProject('synth')}>SynthGarden</div>
             </div>
             <div className={styles.projectDetails}>
               <Project project={project} />
