@@ -5,6 +5,7 @@ import beat from '../../images/beat.png'
 import kimchi from '../../images/kimchi.png'
 import omakase from '../../images/omakase.png'
 import synth from '../../images/synth.png'
+import bike from '../../images/bike.png'
 
 const Project = ({ project }) => {
     let description;
@@ -70,6 +71,19 @@ const Project = ({ project }) => {
                 I encoded blobs to b64 strings to save recordings directly to our db, allowing us to circumvent external cloud technologies. The default recorder was monkey patched to modify the mimeType from the webm default, so users can download their compositions as mp3s.<br></br><br></br>
                 <a href="https://synthgarden.herokuapp.com" target="_blank" rel="noopener noreferrer">live</a>
                 <a href="https://github.com/stellalc7/synthgarden" target="_blank" rel="noopener noreferrer">git</a>
+            </div>
+    } else if (project === 'bike') {
+        description =
+            <div>
+                <Image
+                    src={bike}
+                    alt="synth"
+                    width="500px"
+                    height="300px"
+                    loading="eager"
+                /><br></br><br></br>
+                <span>React Native, TypeScript, TBD</span> *.｡.:✿<br></br><br></br>
+                Bike to beers while listening to beats. This project is on hold right now, and I want to adjust the idea a bit.<br></br><br></br>
             </div>
     }
 

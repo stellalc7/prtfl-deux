@@ -58,7 +58,7 @@
 
 .projectDetails {
   display: flex;
-  width: 600px;
+  width: 550px;
 }
 
 .footer {
@@ -69,6 +69,7 @@
   justify-content: center;
   align-items: center;
   bottom: 0px;
+  margin-top: 10px;
 }
 
 .footer a {

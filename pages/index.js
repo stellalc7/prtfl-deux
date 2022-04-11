@@ -13,7 +13,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>STELLA L CHOI</title>
-        <meta name="description" content="stella's portfolio" />
+        <meta name="description" content="stella's sweeet portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -34,7 +34,6 @@ export default function Home() {
           />
         </div>
 
-
         <div className={styles.work}>
           <h2><span>projects</span></h2>
           <div className={styles.projects}>
@@ -43,6 +42,7 @@ export default function Home() {
               <div className={project === 'kimchi' ? styles.active : null} onMouseOver={() => setProject('kimchi')}>My Aunt&apos;s Kimchi Rules</div>
               <div className={project === 'omakase' ? styles.active : null} onMouseOver={() => setProject('omakase')}>omakase</div>
               <div className={project === 'synth' ? styles.active : null} onMouseOver={() => setProject('synth')}>SynthGarden</div>
+              <div className={project === 'bike' ? styles.active : null} onMouseOver={() => setProject('bike')}>Bikes, Beats, and Beers</div>
             </div>
             <div className={styles.projectDetails}>
               <Project project={project} />
