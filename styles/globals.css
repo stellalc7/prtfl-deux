@@ -24,7 +24,8 @@ a:hover {
 }
 
 span {
-  color: rgb(255, 0, 196);
+  /* color: rgb(255, 0, 196); */
+  color: black;
 }
 
 * {

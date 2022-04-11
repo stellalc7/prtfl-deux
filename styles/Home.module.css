@@ -36,7 +36,9 @@
 
 .active {
   color: white;
-  background-color: rgb(255, 0, 196);
+  /* background-color: rgb(255, 0, 196); */
+  background-color: black;
+  color: white;
 }
 
 .work {
