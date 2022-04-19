@@ -19,8 +19,9 @@ a {
 
 a:hover {
   cursor: default;
-  background-color: black;
-  color: white;
+  background-color: rgb(207, 252, 3);
+  color: black;
+  border: 1px solid rgb(207, 252, 3);
 }
 
 span {
@@ -34,4 +35,11 @@ span {
 
 div:hover {
   cursor: default;
+}
+
+::selection {
+  background: rgb(207, 252, 3); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgb(207, 252, 3); /* Gecko Browsers */
 }
