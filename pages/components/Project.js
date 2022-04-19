@@ -86,13 +86,14 @@ const Project = ({ project }) => {
                 <span><span className={styles.dot}></span> React Native, TypeScript, TBD</span><br></br><br></br>
                 Bike to beers while listening to beats. On hold.<br></br><br></br>
             </div>
-    } else {
-        description =
-            <div>
-                <span><span className={styles.dot}></span> under construction</span><br></br><br></br>
-                digital artifacts and analog pieces that belong everywhere and nowhere
-            </div>
     }
+    // else {
+    //     description =
+    //         <div>
+    //             <span><span className={styles.dot}></span> under construction</span><br></br><br></br>
+    //             digital artifacts and analog pieces that belong everywhere and nowhere
+    //         </div>
+    // }
 
     return (
         description
