@@ -19,9 +19,8 @@ a {
 
 a:hover {
   cursor: default;
-  background-color: rgb(207, 252, 3);
-  color: black;
-  border: 1px solid rgb(207, 252, 3);
+  background-color: black;
+  color: white;
 }
 
 span {
