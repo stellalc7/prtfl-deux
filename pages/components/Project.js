@@ -86,6 +86,17 @@ const Project = ({ project }) => {
                 <span><span className={styles.dot}></span> React Native, TypeScript, TBD</span><br></br><br></br>
                 Bike to beers while listening to beats. On hold.<br></br><br></br>
             </div>
+    } else if (project === 'more') {
+        description =
+            <div>
+                <span><span className={styles.dot}></span> I make stuff</span><br></br><br></br>
+                product focused<br></br>
+                frontend developer<br></br>
+                full stack training<br></br><br></br>
+                
+                <a href="https://editor.p5js.org/ste11a/sketches/2EkYakwwS" target="_blank" rel="noopener noreferrer">disco ball</a><br></br><br></br>
+                <a href="https://editor.p5js.org/ste11a/sketches/D0720fR-7" target="_blank" rel="noopener noreferrer">flower</a>
+            </div>
     }
     // else {
     //     description =
