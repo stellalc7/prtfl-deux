@@ -84,15 +84,15 @@ const Project = ({ project }) => {
                     loading="eager"
                 /><br></br><br></br>
                 <span><span className={styles.dot}></span> React Native, TypeScript, TBD</span><br></br><br></br>
-                Bike to beers while listening to beats. On hold.<br></br><br></br>
+                Bike to beers while listening to beats. One day.<br></br><br></br>
             </div>
     } else if (project === 'more') {
         description =
             <div>
                 <span><span className={styles.dot}></span> I make stuff</span><br></br><br></br>
-                product focused frontend developer with full stack training. former researcher.<br></br><br></br><br></br>
+                product focused frontend developer with full stack training.<br></br><br></br><br></br>
 
-                process (from scratch) --<br></br>
+                {/* process (from scratch) --<br></br>
                 • motivation<br></br>
                 • hypothesize idea ... how might i ...<br></br>
                 • wireframe prototype / speculate<br></br>
@@ -101,9 +101,9 @@ const Project = ({ project }) => {
                 • code<br></br>
                 • (iterate prototype to align with tech)<br></br>
                 • code, iterate, don&apos;t give up...<br></br>
-                • publish<br></br><br></br><br></br>
+                • publish<br></br><br></br><br></br> */}
 
-                press play --<br></br><br></br>
+                or press play --<br></br><br></br>
                 <a href="https://editor.p5js.org/ste11a/sketches/2EkYakwwS" target="_blank" rel="noopener noreferrer">disco ball</a><br></br><br></br>
                 <a href="https://editor.p5js.org/ste11a/sketches/D0720fR-7" target="_blank" rel="noopener noreferrer">flower</a><br></br><br></br><br></br>
 

@@ -21,11 +21,10 @@ export default function Home() {
         <div className={styles.about}>
         <h2><span>about</span></h2>
           <div className={styles.info}>
-            stella l. choi<br></br>
+            <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>stella l. choi</div>
             developer<br></br>
             NY<br></br>
           </div>
-          <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>+ more</div>
           <Image
             src={me}
             alt="Picture of the author"
