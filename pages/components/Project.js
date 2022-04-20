@@ -92,8 +92,9 @@ const Project = ({ project }) => {
                 <span><span className={styles.dot}></span> I make stuff</span><br></br><br></br>
                 product focused<br></br>
                 frontend developer<br></br>
-                full stack training<br></br><br></br>
+                full stack training<br></br><br></br><br></br>
                 
+                press play --<br></br><br></br>
                 <a href="https://editor.p5js.org/ste11a/sketches/2EkYakwwS" target="_blank" rel="noopener noreferrer">disco ball</a><br></br><br></br>
                 <a href="https://editor.p5js.org/ste11a/sketches/D0720fR-7" target="_blank" rel="noopener noreferrer">flower</a>
             </div>
