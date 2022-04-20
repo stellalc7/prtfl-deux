@@ -90,13 +90,23 @@ const Project = ({ project }) => {
         description =
             <div>
                 <span><span className={styles.dot}></span> I make stuff</span><br></br><br></br>
-                product focused<br></br>
-                frontend developer<br></br>
-                full stack training<br></br><br></br><br></br>
-                
+                product focused frontend developer with full stack training. former researcher.<br></br><br></br><br></br>
+
+                process (from scratch) --<br></br>
+                • motivation<br></br>
+                • hypothesize idea ... how might i ...<br></br>
+                • wireframe prototype / speculate<br></br>
+                • research technologies<br></br>
+                • (iterate prototype to align with tech)<br></br>
+                • code<br></br>
+                • (iterate prototype to align with tech)<br></br>
+                • code, iterate, don&apos;t give up...<br></br>
+                • publish<br></br><br></br><br></br>
+
                 press play --<br></br><br></br>
                 <a href="https://editor.p5js.org/ste11a/sketches/2EkYakwwS" target="_blank" rel="noopener noreferrer">disco ball</a><br></br><br></br>
-                <a href="https://editor.p5js.org/ste11a/sketches/D0720fR-7" target="_blank" rel="noopener noreferrer">flower</a>
+                <a href="https://editor.p5js.org/ste11a/sketches/D0720fR-7" target="_blank" rel="noopener noreferrer">flower</a><br></br><br></br><br></br>
+
             </div>
     }
     // else {
