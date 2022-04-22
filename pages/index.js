@@ -21,9 +21,9 @@ export default function Home() {
         <div className={styles.about}>
         <h2><span>about</span></h2>
           <div className={styles.info}>
-            <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>stella l. choi</div>
+            stella l. choi<br></br>
+            {/* <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>stella l. choi</div> */}
             developer<br></br>
-            NY<br></br>
           </div>
           <Image
             src={me}
@@ -40,9 +40,9 @@ export default function Home() {
             <div className={styles.projectList}>
               <div className={project === 'beat' ? styles.active : null} onMouseOver={() => setProject('beat')}>BEAT C♡NNECTI♡N</div>
               <div className={project === 'kimchi' ? styles.active : null} onMouseOver={() => setProject('kimchi')}>My Aunt&apos;s Kimchi Rules</div>
-              <div className={project === 'omakase' ? styles.active : null} onMouseOver={() => setProject('omakase')}>omakase</div>
+              {/* <div className={project === 'omakase' ? styles.active : null} onMouseOver={() => setProject('omakase')}>omakase</div> */}
               <div className={project === 'synth' ? styles.active : null} onMouseOver={() => setProject('synth')}>SynthGarden</div>
-              {/* <div className={project === 'bike' ? styles.active : null} onMouseOver={() => setProject('bike')}>Bikes, Beats, and Beers</div> */}
+              <div className={project === 'bike' ? styles.active : null} onMouseOver={() => setProject('bike')}>Bikes, Beats, and Beers</div>
               {/* <div className={project === 'museo' ? styles.active : null} onMouseOver={() => setProject('museo')}>museum</div><br></br><br></br><br></br><br></br> */}
             </div>
             <div className={styles.projectDetails}>

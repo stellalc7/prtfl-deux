@@ -84,7 +84,7 @@ const Project = ({ project }) => {
                     loading="eager"
                 /><br></br><br></br>
                 <span><span className={styles.dot}></span> React Native, TypeScript, TBD</span><br></br><br></br>
-                Bike to beers while listening to beats. One day.<br></br><br></br>
+                Bike to beers while listening to beats. One day. I will make this app.<br></br><br></br>
             </div>
     } else if (project === 'more') {
         description =
