@@ -42,7 +42,7 @@ export default function Home() {
               <div className={project === 'kimchi' ? styles.active : null} onMouseOver={() => setProject('kimchi')}>My Aunt&apos;s Kimchi Rules</div>
               {/* <div className={project === 'omakase' ? styles.active : null} onMouseOver={() => setProject('omakase')}>omakase</div> */}
               <div className={project === 'synth' ? styles.active : null} onMouseOver={() => setProject('synth')}>SynthGarden</div>
-              <div className={project === 'bike' ? styles.active : null} onMouseOver={() => setProject('bike')}>Bikes, Beats, and Beers</div>
+              {/* <div className={project === 'bike' ? styles.active : null} onMouseOver={() => setProject('bike')}>Bikes, Beats, and Beers</div> */}
               {/* <div className={project === 'museo' ? styles.active : null} onMouseOver={() => setProject('museo')}>museum</div><br></br><br></br><br></br><br></br> */}
             </div>
             <div className={styles.projectDetails}>
