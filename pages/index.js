@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 // import { useState } from 'react'
 
-import me from '../images/me.png'
+import daisy from '../images/daisy.png'
 // import Project from './components/Project'
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
             </a>.
           </div><br></br>
           <Image
-              src={me}
+              src={daisy}
               alt="me"
               width={170}
               height={170}
