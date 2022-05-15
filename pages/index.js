@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.about}>
-        <h2><span className={styles.dot}></span> <span className={styles.dot}></span> stella l choi <span className={styles.dot}></span> <span className={styles.dot}></span></h2>
+        <h2><span className={styles.dot}></span> stella l choi <span className={styles.dot}></span></h2>
           <div className={styles.info}>
             is a web3 frontend developer based in US▲.<br></br><br></br>
             previ♡usly, she pursued atm⁂spheric science, and taught. the national science f☻undation funded her master&apos;s research harm〄nizing social media and rainfall data.<br></br><br></br>
