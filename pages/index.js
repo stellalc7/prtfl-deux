@@ -24,13 +24,13 @@ export default function Home() {
             is a web3 frontend developer based in US▲.<br></br><br></br>
             previ♡usly, she pursued atm⁂spheric science, and taught. the national science f☻undation funded her master&apos;s research harm〄nizing social media and rainfall data.<br></br><br></br>
             {/* <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>stella l. choi</div> */}
-            don&apos;t hesitate ⟿ to never make <a
+            ⟿ <a
               href="mailto:stella.choi@hyperisland.se"
               target="_blank"
               rel="noopener noreferrer"
             >
-              c•ntact
-            </a>.
+              e•mail
+            </a>
           </div><br></br>
           <Image
               src={me}
