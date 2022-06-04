@@ -22,14 +22,15 @@ export default function Home() {
         <h2>stella l choi <span className={styles.dot}></span> </h2>
           <div className={styles.info}>
             is a web3 frontend developer based in US▲.<br></br><br></br>
-            previ♡usly, she pursued atm⁂spheric science, and taught. the national science f☻undation funded her master&apos;s research harm〄nizing social media and rainfall data.<br></br><br></br>
+            her frontend adventures started at ♫ tracklib ♫ in st∅ckh∅lm.<br></br><br></br>
+            previ♡usly, she pursued atm⁂spheric science, and taught. as a national science f☻undation graduate research fellow, she wrote her master&apos;s research harm〄nising social media and rainfall data. she conducted ethnographic fieldwork in buenos aires at el servicio meteorológico nacional as a tinker field research fellow.<br></br><br></br>
             {/* <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>stella l. choi</div> */}
             ⟿ <a
               href="mailto:stella.choi@hyperisland.se"
               target="_blank"
               rel="noopener noreferrer"
             >
-              e•mail
+              c•ntact
             </a>
           </div><br></br>
           <Image
