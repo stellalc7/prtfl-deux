@@ -36,8 +36,8 @@ export default function Home() {
           <Image
               src={me}
               alt="me"
-              width={170}
-              height={170}
+              width={175}
+              height={175}
               className={styles.portrait}
             />
         </div>
