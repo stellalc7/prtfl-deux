@@ -21,8 +21,9 @@ export default function Home() {
         <div className={styles.about}>
         <h2>stella l choi <span className={styles.dot}></span> </h2>
           <div className={styles.info}>
-            is a developer and designer based in US▲. formerly act normal ㋛ + tracklib ♫ in st∅ckh∅lm.<br></br><br></br>
+            is a frontend developer and designer based in US▲. formerly act normal ㋛ + tracklib ♫ in st∅ckh∅lm.<br></br><br></br>
             previ♡usly, she pursued atm⁂spheric science, and taught. she is a recipient of the national science f☻undation graduate research fellowship. her master&apos;s thesis harmonises social media and atmospheric data. she conducted ethnographic fieldwork in buen✺s aires at el servicio meteorológico nacional as a tinker field research fellow. her work has been published in geophysical research letters, and physics today.<br></br><br></br>
+            she is looking for a specialized aethos 49cm in pink.<br></br><br></br>
             {/* <div className={project === 'more' ? styles.active : null} onMouseOver={() => setProject('more')}>stella l. choi</div> */}
             ⟿ <a
               href="mailto:stella.choi@hyperisland.se"
