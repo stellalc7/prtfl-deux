@@ -37,9 +37,9 @@
 }
 
 .dot {
-  height: 17px;
-  width: 17px;
-  background-color: rgb(207, 252, 3);
+  height: 20px;
+  width: 20px;
+  background-color: rgb(143, 249, 255);
   /* background-color: black; */
   border-radius: 50%;
   display: inline-block;

@@ -7,7 +7,7 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 23px;
   /* background-color: rgb(180, 186, 191); */
-  background-color: rgb(255, 230, 247);
+  background-color: rgb(220, 220, 220);
   color: black;
   line-height: 33px;
 }
@@ -24,7 +24,7 @@ a {
 
 a:hover {
   cursor: default;
-  background-color: rgb(207, 252, 3);
+  background-color: rgb(143, 249, 255);
   /* border: 1px solid black; */
   color: black;
 }
@@ -44,8 +44,8 @@ div:hover {
 }
 
 ::selection {
-  background: rgb(207, 252, 3); /* WebKit/Blink Browsers */
+  background: rgb(143, 249, 255); /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: rgb(207, 252, 3); /* Gecko Browsers */
+  background: rgb(143, 249, 255); /* Gecko Browsers */
 }
