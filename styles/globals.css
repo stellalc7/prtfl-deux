@@ -10,10 +10,10 @@ body {
   /* background-color: rgb(220, 220, 220); */
   color: rgb(255, 97, 179);
   line-height: 33px;
-  background-image: url('../images/me.png');
+  /* background-image: url('../images/me.png');
   background-size: 260px;
   background-repeat: no-repeat;
-  background-position: center right 70px;
+  background-position: center right 70px; */
 }
 
 a {

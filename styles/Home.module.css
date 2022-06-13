@@ -26,6 +26,12 @@
   /* margin-left: 30px; */
 }
 
+.me {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
 .portrait {
   /* position: fixed; */
   bottom: 0px;

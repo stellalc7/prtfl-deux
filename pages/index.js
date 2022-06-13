@@ -37,14 +37,16 @@ export default function Home() {
               c•ntact
             </a>
           </div><br></br>
-          {/* <Image
+        </div>
+        <div className={styles.me}>
+          <Image
               src={me}
               alt="me"
-              width={175}
-              height={175}
+              width={245}
+              height={250}
               className={styles.portrait}
-            /> */}
-        </div>
+            />
+            </div>
 
         {/* <div className={styles.work}>
           <h2><span>projects</span></h2>
